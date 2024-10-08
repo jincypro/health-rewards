@@ -4,22 +4,7 @@ Based on user's activity reward user with neighborhood store discounts
 Activity-Based Rewards Application: Full Workflow Documentation
 This document provides a comprehensive guide for setting up, running, and understanding the workflow of an Activity-Based Rewards Application. The application tracks user activities via Fitbit, awards points, and offers rewards, and it's built using a tech stack that includes Go (for backend services), Node.js (for the API layer), React (for the frontend), PostgreSQL (for database storage), and Redis (for caching). The entire application runs on Docker containers to simplify setup and deployment.
 
-Table of Contents
-## Introduction
-## System Requirements
-## Architecture Overview
-## Application Setup
-### Step 1: Cloning the Repository
-### Step 2: Docker Installation
-### Step 3: Database Setup
-### Step 4: Building and Running the Application
-## Frontend: React Setup
-## Backend: Go Services Setup
-## API: Node.js Setup
-## Testing the Application
-## Deployment
-## Troubleshooting
-## Conclusion
+
 
 ## Introduction
 The Activity-Based Rewards application encourages physical activity by rewarding users with points for specific activities. These points can later be redeemed for rewards. The backend processes user data (currently integrated with Fitbit), while the frontend displays activity details and reward points.
